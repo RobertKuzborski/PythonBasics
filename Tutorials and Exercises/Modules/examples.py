@@ -14,4 +14,6 @@ modulexample.greet_user("Soren","Kebab")
 from moduleexample2 import greet_user
 
 # greet_user("Raven","Kebab")		#and in this case the class is imported directly, so its unnecessary to refer to converters.
-print(greet_user("Raven","Kebab")) # because it has return value it prints it 
+print(greet_user("Raven","Kebab")) # because it has return value it prints it
+
+import somemodule as sm # shortens the name of module
